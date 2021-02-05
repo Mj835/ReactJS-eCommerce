@@ -5,6 +5,7 @@ import { BsFillBagFill } from "react-icons/bs";
 
 const Nav = () => {
   const { totalQuantities } = useSelector((state) => state.CartReducer);
+  
   return (
     <div className="nav">
       <div className="container">

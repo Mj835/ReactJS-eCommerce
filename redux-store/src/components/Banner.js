@@ -18,18 +18,6 @@ const Banner = () => {
           }}
         />
       </Element>
-      <Element key="bbb" prefixCls="banner-user-elem">
-        <BgElement
-          key="bg"
-          className="bg"
-          style={{
-            backgroundImage:
-              "url(https://os.alipayobjects.com/rmsportal/uaQVvDrCwryVlbb.jpg)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-      </Element>
     </BannerAnim>
   );
 };

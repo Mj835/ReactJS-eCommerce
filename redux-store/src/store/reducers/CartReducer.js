@@ -5,8 +5,9 @@ const initState = {
 };
 
 const CartReducer = (state = initState, action) => {
-  let findPro;
+  let findPro; //Find Product
   let index;
+
   switch (action.type) {
     case "ADD_TO_CART":
       const { product, quantity } = action.payload;
