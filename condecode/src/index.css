@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+*,
+:after,
+:before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+#main.jsx-2826201888 {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+section.jsx-616066883 {
+  transition: opacity 0.3s ease-out 0s;
+  position: fixed;
+  top: 0px;
+  z-index: 15;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 68px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: MillerDisplay, Times, serif;
+  letter-spacing: -0.0156em;
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  font-family: Gotham Narrow, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin-bottom: 1rem;
+}
+
+h6,
+p {
+  font-size: 18px;
+}
+
+#intro-content.jsx-616066883 {
+  height: 82vmin;
+  width: 100%;
+  overflow: scroll;
+  position: relative;
+  z-index: 17;
+}
+
+.py2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.tac {
+  text-align: center;
+}
+.xjc {
+  justify-content: center;
+}
+.xac {
+  align-items: center;
+}
+.xw {
+  flex-wrap: wrap;
+}
+.x {
+  display: flex;
+}
+
+.text.jsx-616066883 {
+  max-width: 800px;
+}
+
+.active-index-null.jsx-616066883 #title.jsx-616066883 {
+  opacity: 1;
+}
+
+.element-hover.jsx-616066883 {
+  cursor: pointer;
+  transition: opacity 0.3s ease-out 0s;
+}
+.my1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mx1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border-style: none;
+}
+
+/* Aside Code Herer */
+
+aside.jsx-4271878427 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 18;
+  pointer-events: none;
+}
+
+.marky.jsx-4271878427 {
+  width: 100vw;
+}
+
+img.jsx-4271878427 {
+  width: 100vw;
+  padding: 1rem;
+}
+
+img,
+video {
+  width: 100%;
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+
+/* Header CSS */
+header.jsx-3111965634 {
+  z-index: 20;
+}
+
+#logo.jsx-3111965634,
+#to-conde.jsx-3111965634 {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+  transition: 0.4s ease-out opacity, 0.4s ease-out transform,
+    0.4s ease-out visibility;
+  transition-delay: 0.3s;
+}
+#logo.jsx-3111965634,
+#to-conde.jsx-3111965634 {
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+.curp {
+  cursor: pointer;
+}
+.py1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.psf {
+  position: fixed;
+}
+
+.btn.low-opacity-true.jsx-3386783967 {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.btn.jsx-3386783967 {
+  display: inline-block;
+  border: 1px solid;
+  /* padding: 1rem; */
+  font-size: 1.1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 4rem;
+  transition: 0.3s ease-out color, 0.3s ease-out background-color,
+    0.3s ease-out opacity;
+}
+.btn {
+  font-family: Gotham Narrow, Helvetica Neue, sans-serif;
+  /* font-size: 14px; */
+  line-height: 1;
+}
